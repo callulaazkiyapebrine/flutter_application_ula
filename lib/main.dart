@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'tugas_mandiri.dart';
+import 'tugas_heading_item.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,8 +11,9 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Aplikasi Flutter",
-      home: MyApp(),
+      home: LayoutListItem(), // ini halaman utama
     );
   }
 }

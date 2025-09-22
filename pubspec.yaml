@@ -19,3 +19,6 @@ flutter:
   uses-material-design: true
   assets:
     - images/ulaa.jpg
+    - images/tomyum.jpg
+    - images/dimsum.jpg
+    - images/sushi.jpg
